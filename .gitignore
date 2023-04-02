@@ -1,0 +1,13 @@
+# .gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+
+# Dont commit secrets/app specific stuff
+secrets.json
+system-prompt
